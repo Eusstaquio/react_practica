@@ -1,0 +1,39 @@
+.shoppingCart {
+    position: relative;
+    display: inline-block;
+    color: white;
+    font-size: 10;
+    margin-right: 15;
+  }
+  
+  .itemCountSmall {
+    position: absolute;
+    top: -2px;
+    right: -10px;
+    background: red;
+    color: white;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  .itemCountMedium {
+    position: absolute;
+    top: -2px;
+    right: -10px;
+    background: red;
+    color: white;
+    border-radius: 30%;
+    width: 18.5px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: bold;
+  }
