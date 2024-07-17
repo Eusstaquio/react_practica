@@ -1,3 +1,19 @@
 .listContainer{
-    margin: 1rem 0;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.card{
+    flex: 1 0 0%;
+    width: 20rem;
+    margin: auto;
+    margin-top: 2.5rem;
+}
+
+.button{
+    width: 95%;
+    background-color: rgb(2, 47, 116);
 }

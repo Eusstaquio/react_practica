@@ -5,7 +5,7 @@ function CartIcon() {
     return (
         <>
           <p className={styles.shoppingCart}>Shopping Cart <FaCartArrowDown/>
-                <span className={styles.itemCountSmall}>6</span>
+            <span className={styles.itemCountSmall}>6</span>
           </p>
         </>
     );
