@@ -1,22 +1,22 @@
 import styles from "./ItemDetailContainer.module.css";
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+import arrayProductos from "../productos.json";
+import { useParams } from "react-router-dom";
+
 
 function ItemDetailContainer(){
+    const { itemId } = useParams()
+    const item = arrayProductos.find(item => item.id == itemId)
+    console.log(item)
+
     return (
-        <div>
-            <div>
-                <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="holder.js/100px180" />
-                <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
-                    </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-                </Card>
+        <div className={styles.itemDetailContainer}>
+            <div className="col">
+                <img className="img" src={item.imagen} />
+            </div>
+            <div className="col">
+                <h1>{item.nombre}</h1>
+                <h3>coleccion: {item.categoria}</h3>
+                <h4>${item.precio}</h4>
             </div>
         </div>
     );

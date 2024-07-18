@@ -4,15 +4,17 @@ import { useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 function ItemListContainer({}){
     const [items, setItems] = useState(arrayProductos)
-    const {id} = useParams();
+    const {categoryId} = useParams();
+
 
     useEffect(()=>{
-        setItems(id ? arrayProductos.filter(item => item.categoria == id) : arrayProductos)
-    }, [id])
+        setItems(categoryId ? arrayProductos.filter(item => item.categoria == categoryId) : arrayProductos)
+    }, [categoryId])
 
     return (
         <div className="container">
@@ -25,7 +27,11 @@ function ItemListContainer({}){
                             <Card.Title>{item.nombre}</Card.Title>
                             <Card.Text>{item.color}</Card.Text>
                             <Card.Text>${item.precio}</Card.Text>
-                            <Button variant="primary" className={ styles.button }>Comprar</Button>
+                            <Link to={`/item/${item.id}`}>
+                                <Button variant="primary" className={ styles.button }>
+                                    Comprar
+                                </Button>
+                            </Link>
                         </Card.Body>
                         </Card>
                     </div>

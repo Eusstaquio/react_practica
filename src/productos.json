@@ -1,98 +1,98 @@
 [
-    {
-      "id": 1,
-      "imagen": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8bf4d5ae-5a6e-4a51-bc0d-c1e0847095f7/tenis-de-skateboarding-sb-force-58-Txk6xG.png",
-      "nombre": "Nike Dunk Low Retro",
-      "categoria": "classic-dunk",
-      "color": "Blanco/Negro",
-      "precio": 100
-    },
-    {
-      "id": 2,
-      "imagen": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/585eb9e0-c531-46e8-8936-1ffb5aec00b9/tenis-de-skateboarding-sb-force-58-premium-qp1TSM.png",
-      "nombre": "Nike Dunk High Pro",
-      "categoria": "retro",
-      "color": "Rojo/Negro",
-      "precio": 110
-    },
-    {
-      "id": 3,
-      "imagen": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ec1ff6b3-b662-49b3-845b-33a3120d6666/tenis-de-skateboarding-sb-dunk-low-pro-premium-xFQWmJ.png",
-      "nombre": "Nike Dunk Low 'University'",
-      "categoria": "retro",
-      "color": "Azul/Blanco",
-      "precio": 120
-    },
-    {
-      "id": 4,
-      "imagen": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/52e47696-f000-4bb9-a6d3-41aa19220379/calzado-de-skateboarding-sb-dunk-low-pro-vkqhVp.png",
-      "nombre": "Nike Dunk High 'Spartan'",
-      "categoria": "classic-dunk",
-      "color": "Verde/Blanco",
-      "precio": 115
-    },
-    {
-      "id": 5,
-      "imagen": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ca2237b9-b491-432f-b2b0-430e0e35f7a6/tenis-sb-malor-SRmGwt.png",
-      "nombre": "Nike Dunk Low 'Michigan'",
-      "categoria": "classic-dunk",
-      "color": "Amarillo/Azul",
-      "precio": 105
-    },
-    {
-      "id": 6,
-      "imagen": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/bccfb2f8-d188-4c45-923b-3f2d04bc9aef/tenis-de-skateboarding-sb-zoom-nyjah-3-wk7V8x.png",
-      "nombre": "Nike Dunk Low 'Syracuse'",
-      "categoria": "snkrs",
-      "color": "Naranja/Blanco",
-      "precio": 100
-    },
-    {
-      "id": 7,
-      "imagen": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ceb500b3-6b43-4e92-b4c7-b00d44be70c4/calzado-de-skateboarding-sb-zoom-blazer-mid-premium-h8zhH6.png",
-      "nombre": "Nike Dunk High 'Panda'",
-      "categoria": "classic-dunk",
-      "color": "Negro/Blanco",
-      "precio": 115
-    },
-    {
-      "id": 8,
-      "imagen": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2107d7c6-1800-47ba-abcd-45031e8c8476/tenis-de-skateboarding-sb-zoom-blazer-mid-SS5p2B.png",
-      "nombre": "Nike Dunk Low 'Kentucky'",
-      "categoria": "snkrs",
-      "color": "Azul/Blanco",
-      "precio": 125
-    },
-    {
-      "id": 9,
-      "imagen": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/3f145a90-1a95-4795-86e8-0ce151139d5d/calzado-de-skateboarding-sb-react-leo-p5xlWk.png",
-      "nombre": "Nike Dunk High 'Court Purple'",
-      "categoria": "snkrs",
-      "color": "Morado/Blanco",
-      "precio": 120
-    },
-    {
-      "id": 10,
-      "imagen": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d8cd2c58-2766-4141-a210-29906d8bafd4/tenis-sb-vertebrae-BnRw3l.png",
-      "nombre": "Nike Dunk High 'Court Purple'",
-      "categoria": "retro",
-      "color": "Morado/Blanco",
-      "precio": 120
-    },
-    {
-      "id": 11,
-      "imagen": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/581ea3c2-ca99-45ae-b606-6deec305c5be/tenis-de-skateboarding-sb-force-58-Txk6xG.png",
-      "nombre": "Nike Dunk High 'Court Purple'",
-      "categoria": "snkrs",
-      "color": "Morado/Blanco",
-      "precio": 120
-    },
-    {
-      "id": 12,
-      "imagen": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/cf06f428-ac43-4088-bff0-9fed72784560/tenis-sb-malor-SRmGwt.png",
-      "nombre": "Nike Dunk High 'Court Purple'",
-      "marca": "retro",
-      "color": "Morado/Blanco",
-      "precio": 120
-    }
+  {
+    "id": 1,
+    "imagen": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8bf4d5ae-5a6e-4a51-bc0d-c1e0847095f7/tenis-de-skateboarding-sb-force-58-Txk6xG.png",
+    "nombre": "Nike Dunk Low Retro",
+    "categoria": "classic-dunk",
+    "color": "Blanco/Negro",
+    "precio": 100
+  },
+  {
+    "id": 2,
+    "imagen": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/585eb9e0-c531-46e8-8936-1ffb5aec00b9/tenis-de-skateboarding-sb-force-58-premium-qp1TSM.png",
+    "nombre": "Nike Dunk High Pro",
+    "categoria": "retro",
+    "color": "Rojo/Negro",
+    "precio": 110
+  },
+  {
+    "id": 3,
+    "imagen": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ec1ff6b3-b662-49b3-845b-33a3120d6666/tenis-de-skateboarding-sb-dunk-low-pro-premium-xFQWmJ.png",
+    "nombre": "Nike Dunk Low 'University'",
+    "categoria": "retro",
+    "color": "Azul/Blanco",
+    "precio": 120
+  },
+  {
+    "id": 4,
+    "imagen": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/52e47696-f000-4bb9-a6d3-41aa19220379/calzado-de-skateboarding-sb-dunk-low-pro-vkqhVp.png",
+    "nombre": "Nike Dunk High 'Spartan'",
+    "categoria": "classic-dunk",
+    "color": "Verde/Blanco",
+    "precio": 115
+  },
+  {
+    "id": 5,
+    "imagen": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ca2237b9-b491-432f-b2b0-430e0e35f7a6/tenis-sb-malor-SRmGwt.png",
+    "nombre": "Nike Dunk Low 'Michigan'",
+    "categoria": "classic-dunk",
+    "color": "Amarillo/Azul",
+    "precio": 105
+  },
+  {
+    "id": 6,
+    "imagen": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/bccfb2f8-d188-4c45-923b-3f2d04bc9aef/tenis-de-skateboarding-sb-zoom-nyjah-3-wk7V8x.png",
+    "nombre": "Nike Dunk Low 'Syracuse'",
+    "categoria": "snkrs",
+    "color": "Naranja/Blanco",
+    "precio": 100
+  },
+  {
+    "id": 7,
+    "imagen": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ceb500b3-6b43-4e92-b4c7-b00d44be70c4/calzado-de-skateboarding-sb-zoom-blazer-mid-premium-h8zhH6.png",
+    "nombre": "Nike Dunk High 'Panda'",
+    "categoria": "classic-dunk",
+    "color": "Negro/Blanco",
+    "precio": 115
+  },
+  {
+    "id": 8,
+    "imagen": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2107d7c6-1800-47ba-abcd-45031e8c8476/tenis-de-skateboarding-sb-zoom-blazer-mid-SS5p2B.png",
+    "nombre": "Nike Dunk Low 'Kentucky'",
+    "categoria": "snkrs",
+    "color": "Azul/Blanco",
+    "precio": 125
+  },
+  {
+    "id": 9,
+    "imagen": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/3f145a90-1a95-4795-86e8-0ce151139d5d/calzado-de-skateboarding-sb-react-leo-p5xlWk.png",
+    "nombre": "Nike Dunk High 'Court Purple'",
+    "categoria": "snkrs",
+    "color": "Morado/Blanco",
+    "precio": 120
+  },
+  {
+    "id": 10,
+    "imagen": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d8cd2c58-2766-4141-a210-29906d8bafd4/tenis-sb-vertebrae-BnRw3l.png",
+    "nombre": "Nike Dunk High 'Court Purple'",
+    "categoria": "retro",
+    "color": "Morado/Blanco",
+    "precio": 120
+  },
+  {
+    "id": 11,
+    "imagen": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/581ea3c2-ca99-45ae-b606-6deec305c5be/tenis-de-skateboarding-sb-force-58-Txk6xG.png",
+    "nombre": "Nike Dunk High 'Court Purple'",
+    "categoria": "snkrs",
+    "color": "Morado/Blanco",
+    "precio": 120
+  },
+  {
+    "id": 12,
+    "imagen": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/cf06f428-ac43-4088-bff0-9fed72784560/tenis-sb-malor-SRmGwt.png",
+    "nombre": "Nike Dunk High 'Court Purple'",
+    "marca": "retro",
+    "color": "Morado/Blanco",
+    "precio": 120
+  }
 ]  
