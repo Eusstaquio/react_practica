@@ -4,6 +4,8 @@
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 2rem;
+    max-width: 1100px;
+    margin: auto;
 }
 
 .card{
@@ -24,4 +26,9 @@
     left: 50%; 
     transform: translateX(-50%); 
     z-index: 1050;
+}
+
+.nombreArticulo{
+    text-decoration: none;
+    color: black;
 }

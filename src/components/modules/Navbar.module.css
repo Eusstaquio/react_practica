@@ -1,0 +1,24 @@
+.linksContainer{
+    flex: 1;
+    justify-content: center;
+}
+
+.logo{
+    text-decoration: none;
+    color: white;
+}
+
+.links{
+    display: flex;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0 1rem;
+}
+
+.links:hover{
+    color: rgb(118, 189, 252);
+}
+
+.sss{
+    color: rgb(1, 171, 222);
+}

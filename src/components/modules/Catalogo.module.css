@@ -29,11 +29,28 @@
     font-size: medium;
 }
 
-.columnas{
+.columna{
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .boton{
     margin: 1.5rem 0;
+    color: rgb(148, 148, 148);
+    background-color: white;
+    border: none;
+    box-shadow: 0px 0px 3px;
+}
+.deleteButton{
+    color: rgb(148, 148, 148);
+    background-color: white;
+    border: none;
+    box-shadow: 0px 0px 3px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.botonContainer{
+    text-align: start;
 }

@@ -40,6 +40,7 @@ export default function Catalogo() {
             </>
         )
     }
+
     return(
         <>
             <h2 className={ styles.title} >Productos en el Carrito:</h2>
@@ -57,7 +58,7 @@ export default function Catalogo() {
                                 <h3 className={styles.h3}>{producto.nombre}</h3>
                                 <h4 className={styles.texto}>Color: {producto.color}</h4>
                                 <h4 className={styles.texto}>${producto.precio}</h4>
-                                <Button className={styles.boton} onClick={() => eliminarProducto(producto.id)} >X</Button>
+                                <Button className={styles.deleteButton} onClick={() => eliminarProducto(producto.id)} >X</Button>
                             </Col>
                         </Row>)}
                     </Col>
@@ -68,7 +69,7 @@ export default function Catalogo() {
                     </Col>
                 </Row>
                 <Row>
-                    <Col>
+                    <Col className={ styles.botonContainer} >
                     <Button className={styles.boton} onClick={() => vaciarCarrito()} >Vaciar Carrito</Button>
                     </Col>
                 </Row>

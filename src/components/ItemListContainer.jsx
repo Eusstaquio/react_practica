@@ -11,10 +11,7 @@ import { Toast, ToastContainer, Button } from 'react-bootstrap';
 function ItemListContainer({}){
     const [items, setItems] = useState(arrayProductos)
     const {categoryId} = useParams();
-    const {showToast, setShowToast} = useContext(CartContext)
-
-
-    const { agregarProductos} = useContext(CartContext)
+    const {showToast, setShowToast, agregarProductos} = useContext(CartContext)
 
 
     useEffect(()=>{
@@ -31,8 +28,8 @@ function ItemListContainer({}){
                                 <Card.Img variant="top" src={item.imagen} alt={item.nombre}/>
                             </Link>
                             <Card.Body>
-                                <Link to={`/item/${item.id}`}>
-                                    <Card.Title>{item.nombre}</Card.Title>
+                                <Link to={`/item/${item.id}`} className={styles.nombreArticulo}>
+                                    <Card.Title >{item.nombre}</Card.Title>
                                 </Link>
                                 <Card.Text>{item.color}</Card.Text>
                                 <Card.Text>${item.precio}</Card.Text>
@@ -48,7 +45,7 @@ function ItemListContainer({}){
                     <Toast 
                         onClose={() => setShowToast(false)} 
                         show={showToast} 
-                        delay={5000} 
+                        delay={3000} 
                         autohide
                         bg="black">
                         <Toast.Header>

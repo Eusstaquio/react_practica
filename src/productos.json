@@ -91,7 +91,7 @@
     "id": 12,
     "imagen": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/cf06f428-ac43-4088-bff0-9fed72784560/tenis-sb-malor-SRmGwt.png",
     "nombre": "Nike Dunk High 'Court Purple'",
-    "marca": "retro",
+    "categoria": "retro",
     "color": "Morado/Blanco",
     "precio": 120
   }
