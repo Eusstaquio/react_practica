@@ -1,0 +1,39 @@
+.cols{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.title{
+    margin: 1.5rem 0;
+}
+
+.productoCarrito{
+    display: flex;
+    max-width: 800px;
+    border-bottom: solid .5px rgb(189, 188, 188);
+}
+
+.img{
+    width: 130px;
+    height: 130px;
+    margin: 1rem 1rem 1rem 0;
+    margin-right: 1rem;
+}
+
+.h3{
+    padding-top: 1rem;
+    text-align: start;
+}
+.texto{
+    text-align: start;
+    font-size: medium;
+}
+
+.columnas{
+    display: flex;
+    flex-direction: column;
+}
+
+.boton{
+    margin: 1.5rem 0;
+}

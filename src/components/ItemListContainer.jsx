@@ -1,15 +1,20 @@
-import styles from "./ItemListContainer.module.css";
+import styles from "./modules/ItemListContainer.module.css";
 import arrayProductos from "../productos.json";
-import { useEffect, useState } from 'react';
-import Button from 'react-bootstrap/Button';
+import { useContext, useEffect, useState } from 'react';
 import Card from 'react-bootstrap/Card';
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
+import { CartContext } from "../Context/Cartcontext";
+import { Toast, ToastContainer, Button } from 'react-bootstrap';
 
 
 function ItemListContainer({}){
     const [items, setItems] = useState(arrayProductos)
     const {categoryId} = useParams();
+    const {showToast, setShowToast} = useContext(CartContext)
+
+
+    const { agregarProductos} = useContext(CartContext)
 
 
     useEffect(()=>{
@@ -22,20 +27,37 @@ function ItemListContainer({}){
                 {items.map(item =>(
                     <div key={item.id} className="col">
                         <Card className={ styles.card }>
-                        <Card.Img variant="top" src={item.imagen} alt={item.nombre}/>
-                        <Card.Body>
-                            <Card.Title>{item.nombre}</Card.Title>
-                            <Card.Text>{item.color}</Card.Text>
-                            <Card.Text>${item.precio}</Card.Text>
                             <Link to={`/item/${item.id}`}>
-                                <Button variant="primary" className={ styles.button }>
-                                    Comprar
-                                </Button>
+                                <Card.Img variant="top" src={item.imagen} alt={item.nombre}/>
                             </Link>
-                        </Card.Body>
+                            <Card.Body>
+                                <Link to={`/item/${item.id}`}>
+                                    <Card.Title>{item.nombre}</Card.Title>
+                                </Link>
+                                <Card.Text>{item.color}</Card.Text>
+                                <Card.Text>${item.precio}</Card.Text>
+                                
+                                <Button variant="primary" className={ styles.button } onClick={() => agregarProductos(item.id)}>
+                                    Add to Cart 
+                                </Button>
+                            </Card.Body>
                         </Card>
                     </div>
                 ))}
+                <ToastContainer position="bottom-middle" className={styles.toastContainer}>
+                    <Toast 
+                        onClose={() => setShowToast(false)} 
+                        show={showToast} 
+                        delay={5000} 
+                        autohide
+                        bg="black">
+                        <Toast.Header>
+                            <strong className="me-auto">Notificación</strong>
+                            <small>Justo ahora</small>
+                        </Toast.Header>
+                        <Toast.Body className="text-white">Este producto ya está en tu carrito.</Toast.Body>
+                    </Toast>
+                </ToastContainer>
             </div>
         </div>
     )

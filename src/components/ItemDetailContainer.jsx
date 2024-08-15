@@ -1,4 +1,4 @@
-import styles from "./ItemDetailContainer.module.css";
+import styles from "./modules/ItemDetailContainer.module.css";
 import arrayProductos from "../productos.json";
 import { useParams } from "react-router-dom";
 
@@ -6,9 +6,9 @@ import { useParams } from "react-router-dom";
 function ItemDetailContainer(){
     const { itemId } = useParams()
     const item = arrayProductos.find(item => item.id == itemId)
-    console.log(item)
 
     return (
+        
         <div className={styles.itemDetailContainer}>
             <div className="col">
                 <img className="img" src={item.imagen} />
@@ -19,6 +19,7 @@ function ItemDetailContainer(){
                 <h4>${item.precio}</h4>
             </div>
         </div>
+ 
     );
 }
 
